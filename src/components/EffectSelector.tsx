@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import JetSetRadioLoading from '@/effects/p5/JetSetRadioLoading';
 
 type EffectOption = {
   name: string;
@@ -10,7 +11,7 @@ type EffectOption = {
 const effects: EffectOption[] = [
     { name: 'Estrellas', path: 'EffectStars' },
     { name: 'Círculos', path: 'EffectCircles' },
-    { name: 'Jet Set Radio', path: 'EffectJetSetRadio' },
+    { name: 'Jet Set Radio', path: 'JetSetRadioLoading' },
 ];
 
 export default function EffectSelector({ onSelect }: { onSelect: (path: string) => void }) {
