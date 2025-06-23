@@ -1,0 +1,6 @@
+Fondos para streaming
+
+- npm install
+- docker build -t stream-fx .
+- docker run -p 3000:3000 stream-fx
+- 
